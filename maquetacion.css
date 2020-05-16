@@ -1,0 +1,187 @@
+* {
+	margen : 0 ;
+	relleno : 0 ;
+}
+
+cuerpo
+{
+  color de fondo : # FFFFFF ;
+  alinear texto : centro;
+}
+
+# contenedor {
+	ancho : 1200 px ;
+	altura : 1000 px ;
+	margen : 0.5 em automático;
+	relleno : 0.5 em ;
+}
+
+# encabezado {
+	altura : 20 % ;
+	ancho : 100 % ;
+	fondo : url (https://cdn130.picsart.com/283382977022211.png?type=webp&to=min&r=640);
+	repetición de fondo : sin repetición;
+	tamaño de fondo : 100 %  100 % ;
+	Familia tipográfica : "Lucida Calligraphy" , romana informal , monotipo corsivo;
+	tamaño de fuente : 55 px ;
+	pantalla : centro;
+}
+
+h1 {
+	alinear texto : centro;
+	altura de línea : 220 px ;
+}
+
+# nav {
+	altura : 3 % ;
+	color de fondo : # FF69B4 ;
+	margen : 1 em ;
+	fondo : url ( "https://us.123rf.com/450wm/trimailova/trimailova1712/trimailova171200035/92069843-detalles-de-fondo-de-textura-dorada-con-degradado-y-la-pintura-oro-de -oro-de-fondo-de-arte-de-pantal.jpg? ver = 6 " );
+	repetición de fondo : sin repetición;
+	tamaño de fondo : 100 %  100 % ;
+}
+
+# menu  ul {
+	estilo de lista : ninguno;
+	margen : 0 ;
+	relleno : 0 ;
+	pantalla : centro;
+}
+
+# menu  ul  li {
+	pantalla : bloque en línea;
+}
+
+# menu  ul  li  a {
+	decoración de texto : ninguno;
+	tamaño de fuente : 25 px ;
+	color : negro
+	relleno : 25 px ;
+}
+
+# menu  ul  li  a : hover {
+	color de fondo : # B8860B
+}
+
+# contenido {
+	altura : 48 % ;
+}
+
+# pie de página {
+	altura : 10 % ;
+	color de fondo : # FFC0CB ;
+	margen : 1 em ;
+	fondo : gradiente lineal (a la derecha , ciruela , rosa);
+}
+
+. fin  p  a {
+	decoración de texto : ninguno;
+}
+
+p {
+	tamaño de fuente : 50 px ;
+	margen inferior : 1 em ;
+	alinear texto : centro;
+}
+
+# section {
+	altura : 98 % ;
+	ancho : 64 % ;
+	color de fondo : # FFB6C1 ;
+	flotador : izquierda;
+	margen : 1 em ;
+}
+
+# aparte {
+	altura : 98 % ;
+	ancho : 30 % ;
+	color de fondo : # EE82EE ;
+	tamaño de fondo : 100 %  100 % ;
+	flotador : derecho;
+	margen : 1 em ;
+}
+
+# fundadora {
+	flotador : centro;
+}
+
+video {
+	margen superior : 1 em ;
+	ancho : 100 % ;
+}
+
+ul ,  ol {
+	estilo de lista : ninguno;
+}
+
+. nav1  li  a {
+ color de fondo : # EE82EE ;
+ color : # 000000 ;
+ decoración de texto : ninguno;
+ relleno : 2 px  5 px ;
+ pantalla : bloque;
+ margen izquierdo : 2 em ;
+}
+
+. nav1  li  a : hover {
+	color de fondo : # DDA0DD ;
+}
+
+. nav1  >  li {
+	flotador : izquierda;
+}
+
+. nav1  li  ul {
+	pantalla : ninguno;
+	posición : absoluta;
+}
+
+. nav1  li : hover  >  ul {
+	pantalla : bloque;
+}
+
+h2 {
+	color : # 8B008B ;
+	margen superior : 1 em ;
+	alinear texto : centro;
+	margen inferior : 0.5 em ;
+	Familia tipográfica : "Colonna MT" ;
+	tamaño de fuente : 40 px ;
+}
+
+. control deslizante {
+	ancho : 100 % ;
+	desbordamiento : oculto;
+	altura : 100 % ;
+}
+
+. deslizador  ul {
+	pantalla : flex;
+	relleno : 0 ;
+	ancho : 400 % ;
+	animación : cambio 20 s lineal alternativo infinito;
+}
+
+. deslizador  li {
+	ancho : 100 % ;
+	estilo de lista : ninguno;
+}
+
+. deslizador  img {
+	ancho : 100 % ;
+	altura : 37 % ;
+}
+
+@keyframes cambio {
+	0 % { margen-izquierda : 0 ;}
+	20 % { margen-izquierda : 0 ;}
+	
+	25 % { margen-izquierda : -100 % ;}
+	45 % { margen-izquierda : -100 % ;}
+	
+	50 % { margen-izquierda : -200 % ;}
+	70 % { margen-izquierda : -200 % ;}
+	
+	75 % { margen-izquierda : -300 % ;}
+	100 % { margen-izquierda : -300 % ;}
+}
