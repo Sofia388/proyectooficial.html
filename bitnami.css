@@ -1,0 +1,15 @@
+. module_top , . module_bottom {
+  visibilidad : oculta;
+}
+
+mesa {
+  borde : 0 px  ! importante ;
+}
+
+. module_content  img {
+  ancho mínimo : 70 px ;
+}
+
+. módulo_contenido  h2 {
+  tamaño de fuente : 30 px ;
+}
