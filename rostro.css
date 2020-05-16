@@ -1,0 +1,64 @@
+* {
+	margen : 0 ;
+	relleno : 0 ;
+}
+
+cuerpo
+{
+  color de fondo : # FFFFFF ;
+  alinear texto : centro;
+}
+
+# contenedor {
+	ancho : 1200 px ;
+	altura : 1000 px ;
+	margen : 0.5 em automático;
+	relleno : 0.5 em ;
+}
+
+# encabezado {
+	altura : 20 % ;
+	ancho : 100 % ;
+	fondo : url (https://cdn130.picsart.com/283382977022211.png?type=webp&to=min&r=640);
+	repetición de fondo : sin repetición;
+	tamaño de fondo : 100 %  100 % ;
+	Familia tipográfica : "Lucida Calligraphy" , romana informal , monotipo corsivo;
+	tamaño de fuente : 55 px ;
+	pantalla : centro;
+}
+
+h1 {
+	alinear texto : centro;
+	altura de línea : 220 px ;
+}
+
+# nav {
+	altura : 3 % ;
+	color de fondo : # FF69B4 ;
+	margen : 1 em ;
+	fondo : url ( "https://us.123rf.com/450wm/trimailova/trimailova1712/trimailova171200035/92069843-detalles-de-fondo-de-textura-dorada-con-degradado-y-la-pintura-oro-de -oro-de-fondo-de-arte-de-pantal.jpg? ver = 6 " );
+	repetición de fondo : sin repetición;
+	tamaño de fondo : 100 %  100 % ;
+}
+
+# menu  ul {
+	estilo de lista : ninguno;
+	margen : 0 ;
+	relleno : 0 ;
+	pantalla : centro;
+}
+
+# menu  ul  li {
+	pantalla : bloque en línea;
+}
+
+# menu  ul  li  a {
+	decoración de texto : ninguno;
+	tamaño de fuente : 25 px ;
+	color : negro
+	relleno : 25 px ;
+}
+
+# menu  ul  li  a : hover {
+	color de fondo : # B8860B
+}
