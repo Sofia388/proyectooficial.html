@@ -1,0 +1,18 @@
+cuerpo
+{
+	margen : 0 ;
+	relleno : 0 ;
+
+	font-family : 'Roboto' , sans-serif;
+	alinear texto : centro;
+}
+input [ type  = "text" ] ,  input [ type  = "password" ]
+{
+ esquema : ninguno;
+ relleno : 20 px ;
+ pantalla : bloque;
+ ancho : 300 px ;
+ radio de borde : 3 px ;
+ borde : 1 px sólido # eee ;
+ margen : 20 px automático;
+}
