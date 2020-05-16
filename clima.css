@@ -1,0 +1,39 @@
+* {
+	color de fondo : # FFF0F5 ;
+	repetición de fondo : sin repetición;
+	tamaño de fondo : 100 %  100 % ;
+}
+
+. contenedor {
+	ancho : 40 % ;
+	ancho máximo : 600 px ;
+	altura : 600 px ;
+	pantalla : flex;
+	dirección flexible : fila;
+	flex-wrap : envoltura;
+}
+
+p {
+	tamaño de fuente : 20 px ;
+	altura de línea : 50 px ;
+	relleno : 18 px ;
+	margen : auto;
+
+}
+
+# uno {
+	tamaño de fuente : 40 px ;
+	color : # 800080 ;
+	Familia tipográfica : "Bell MT" ;
+}
+
+img {
+	ancho : 750 px ;
+	altura : 600 px ;
+	flotador : derecho;
+	margen derecho : 20 px ;
+}
+
+# pie de página {
+	color de fondo : # DDA0DD ;
+}
